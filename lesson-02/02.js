@@ -7,9 +7,9 @@
 * Для успешного прохождения тестов не меняйте названия переменных!
 */
 
-let dice1 = Math.round(Math.random()*6 + 1)
-let dice2 = Math.round(Math.random()*6 + 1)
-let isWinningDouble = dice1 > 3 === dice2 > 3 ? true : false
+let dice1 = Math.floor(Math.random()*6 + 1)
+let dice2 = Math.floor(Math.random()*6 + 1)
+let isWinningDouble = dice1 > 3 && dice2 > 3 && dice1 === dice2 ? true : false
 
 /*
 console.log('Первый бросок: ' + dice1)
